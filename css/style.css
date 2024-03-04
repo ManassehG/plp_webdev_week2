@@ -1,0 +1,84 @@
+/* Set default font family, margin, padding, and background color for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Style the header section with specific background color, text color, padding, and text alignment */
+header {
+    background-color: #100879;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation bar with background color, padding, text alignment, and a bottom border */
+nav {
+    background-color: #666666;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Style the links within the navigation bar */
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Change link color */
+    padding: 10px 20px; /* Add padding to links */
+    margin: 0 10px; /* Add margin between links */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    background-color: chocolate; /* Set default background color for links */
+}
+
+/* Change background color of navigation links on hover */
+nav a:hover {
+    background-color: #ddd;
+}
+
+/* Style sections of the webpage with padding, background color, margin, maximum width, rounded corners, and a subtle box shadow */
+section {
+    padding: 20px;
+    background-color: white; /* Set a white background color */
+    margin: 20px auto; /* Add space around the sections and center them */
+    max-width: 800px; /* Limit the width of the sections */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style heading 2 elements with a specific text color */
+h2 {
+    color: #333;
+}
+
+/* Style paragraphs with a specific text color and increased line height for better readability */
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Style images to be responsive, with maximum width, auto height, centered horizontally, margin, rounded corners, subtle box shadow, and a smooth transition effect on hover */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.3s ease; /* Add a smooth transition for hover effect */
+}
+
+/* Enlarge images slightly on hover */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Style a grid layout for a gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout with minimum item width of 250px and maximum available width */
+    grid-gap: 20px; /* Set gap between grid items */
+}
